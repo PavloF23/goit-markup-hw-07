@@ -15,38 +15,47 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body class="page">
     <!-- Верхняя линия-->
     <header class="header">
       <div class="container main-header">
         <a href="./index.html" class="logo">
-          <span class="logo-span">Web</span>Studio</a
-        >
+          <span class="logo-header">Web</span>Studio
+        </a>
         <nav>
           <ul class="site-nav list">
-            <li class="itim">
-              <a href="./index.html" class="link link-scale">Студия</a>
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link current">Студия</a>
             </li>
-            <li class="itim">
-              <a href="./portfolio.html" class="link current">Портфолио</a>
+            <li class="site-nav__item">
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link--scale"
+                >Портфолио</a
+              >
             </li>
-            <li class="itim"><a href="" class="link link-scale">Кнтакты</a></li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link site-nav__link--scale"
+                >Кнтакты</a
+              >
+            </li>
           </ul>
         </nav>
-        <ul class="site-phone list">
-          <li class="item">
-            <a href="maito:info@devstudio.com " class="link mail">
-              <svg class="mail-icon">
+        <ul class="contact list">
+          <li class="contact__item">
+            <a href="maito:info@devstudio.com " class="contact__link mail">
+              <svg class="contact__icon">
                 <use href="./images/sprite.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link mail">
-              <svg class="mail-icon">
+          <li class="contact__item">
+            <a href="tel:+380961111111" class="contact__link mail">
+              <svg class="contact__icon">
                 <use href="./images/sprite.svg#icon-phone"></use>
               </svg>
               +38 096 111 11 11
