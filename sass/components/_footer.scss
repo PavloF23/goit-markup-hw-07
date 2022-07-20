@@ -1,0 +1,56 @@
+footer {
+    background-color: $bg-hero-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.footer-phone {
+    color: $footer-text-color;
+}
+
+.footer-text {
+    color: $primary-bg-color;
+}
+
+.site-footer {
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    & .item:not(:nth-last-child(-n + 1)) {
+            margin-bottom: 9px;
+        }
+}
+
+
+
+.foot {
+    display: flex;
+    align-items: baseline;
+}
+
+.soc-foot {
+    margin-left: 70px;
+    align-items: baseline;
+}
+
+.site-foot {
+    width: 231px;
+}
+
+.footer .titel {
+    margin: 0;
+    margin-bottom: 20px;
+
+    color: var(--primary-bg-color);
+
+    /* width: 700; */
+    font-size: 14px;
+    line-height: 1.2;
+}
