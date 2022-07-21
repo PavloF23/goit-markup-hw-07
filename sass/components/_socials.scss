@@ -3,6 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+        gap: 10px;
 }
 
 .socials__link {
@@ -12,7 +13,8 @@
     align-items: center;
     width: 44px;
     height: 44px;
-    border-radius: 50%;
+    border-radius: 50%;  
+    cursor: pointer;
     color: $primary-icon-color;
     background-color: $primary-bg-color;
     transition: background-color 250ms $timing-function,
@@ -32,13 +34,11 @@
     position: absolute;
 }
 
-/* social footer */
-.foot-icon {
-    border: none;
-    width: 44px;
-    height: 44px;
-    fill: $primary-icon-color;
-    background-color: $bg-footer-icon;
-    border-radius: 50%;
-    cursor: pointer;
+/* socials footer */
+.socials-footer {
+    margin-left: 70px;
+    align-items: baseline;
+}
+.socials-footer__link {
+     background-color: $bg-footer-icon;   
 }
