@@ -820,6 +820,8 @@ footer {
 .btn:hover, .btn:focus {
   color: #ffffff;
   background-color: #2196f3;
+  -webkit-box-shadow: 0px 2px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 0px 1px rgba(0, 0, 0, 0.08), 0px 1px 0px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 0px 1px rgba(0, 0, 0, 0.08), 0px 1px 0px 3px rgba(0, 0, 0, 0.1);
 }
 .btn.current-btn {
   color: #ffffff;
